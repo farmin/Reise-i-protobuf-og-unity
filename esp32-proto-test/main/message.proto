@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package test;
+
+message Message {
+    int32 a=1; 
+    int32 b=2;
+    string test=3;
+}
+
+message Repeated_message {
+    int32 c=1;
+    repeated Message message=2;
+}
